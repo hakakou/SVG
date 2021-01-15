@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Namespace Svg
    | SVG.NET API ">
-    <meta name="generator" content="docfx 2.56.2.0">
+    <meta name="generator" content="docfx 2.56.6.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -61,11 +61,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list"></div>
+          <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination"></ul>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
       <div role="main" class="container body-content hide-when-search">
@@ -96,6 +96,8 @@
       <h4><a class="xref" href="Svg.ContentEventArgs.html">ContentEventArgs</a></h4>
       <section><p>Content of this whas was set</p>
 </section>
+      <h4><a class="xref" href="Svg.CoordinateParser.html">CoordinateParser</a></h4>
+      <section></section>
       <h4><a class="xref" href="Svg.EnumBaseConverter-1.html">EnumBaseConverter&lt;T&gt;</a></h4>
       <section></section>
       <h4><a class="xref" href="Svg.Enums.html">Enums</a></h4>
@@ -291,8 +293,13 @@ process will SvgFontManager.FindFont method.</p>
       <section></section>
       <h4><a class="xref" href="Svg.SvgMorphologyOperatorConverter.html">SvgMorphologyOperatorConverter</a></h4>
       <section></section>
+      <h4><a class="xref" href="Svg.SvgNamespace.html">SvgNamespace</a></h4>
+      <section></section>
       <h4><a class="xref" href="Svg.SvgNumberCollection.html">SvgNumberCollection</a></h4>
       <section><p>Represents a list of <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a>.</p>
+</section>
+      <h4><a class="xref" href="Svg.SvgNumberCollectionConverter.html">SvgNumberCollectionConverter</a></h4>
+      <section><p>A class to convert string into <a class="xref" href="Svg.SvgNumberCollection.html">SvgNumberCollection</a> instances.</p>
 </section>
       <h4><a class="xref" href="Svg.SvgOrient.html">SvgOrient</a></h4>
       <section><p>Represents an orientation in a Scalable Vector Graphics document.</p>
@@ -378,6 +385,9 @@ Use the Script property to get the script content (proxies the content)</p>
       <h4><a class="xref" href="Svg.SvgUnitCollection.html">SvgUnitCollection</a></h4>
       <section><p>Represents a list of <a class="xref" href="Svg.SvgUnit.html">SvgUnit</a>.</p>
 </section>
+      <h4><a class="xref" href="Svg.SvgUnitCollectionConverter.html">SvgUnitCollectionConverter</a></h4>
+      <section><p>A class to convert string into <a class="xref" href="Svg.SvgUnitCollection.html">SvgUnitCollection</a> instances.</p>
+</section>
       <h4><a class="xref" href="Svg.SvgUnitConverter.html">SvgUnitConverter</a></h4>
       <section></section>
       <h4><a class="xref" href="Svg.SvgUnknownElement.html">SvgUnknownElement</a></h4>
@@ -389,8 +399,12 @@ Use the Script property to get the script content (proxies the content)</p>
       <h4><a class="xref" href="Svg.SvgVisualElement.html">SvgVisualElement</a></h4>
       <section><p>The class that all SVG elements should derive from when they are to be rendered.</p>
 </section>
+      <h4><a class="xref" href="Svg.XmlSpaceHandlingConverter.html">XmlSpaceHandlingConverter</a></h4>
+      <section></section>
     <h3 id="structs">Structs
   </h3>
+      <h4><a class="xref" href="Svg.CoordinateParserState.html">CoordinateParserState</a></h4>
+      <section></section>
       <h4><a class="xref" href="Svg.SvgLinearGradientServer.GradientPoints.html">SvgLinearGradientServer.GradientPoints</a></h4>
       <section></section>
       <h4><a class="xref" href="Svg.SvgPoint.html">SvgPoint</a></h4>
@@ -431,6 +445,8 @@ Use the Script property to get the script content (proxies the content)</p>
     <h3 id="enums">Enums
   </h3>
       <h4><a class="xref" href="Svg.EnumBaseConverter-1.CaseHandling.html">EnumBaseConverter&lt;T&gt;.CaseHandling</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Svg.NumState.html">NumState</a></h4>
       <section></section>
       <h4><a class="xref" href="Svg.SvgClipRule.html">SvgClipRule</a></h4>
       <section><p>Indicates the algorithm which is to be used to determine the clipping region.</p>
@@ -511,7 +527,8 @@ Use the Script property to get the script content (proxies the content)</p>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>
