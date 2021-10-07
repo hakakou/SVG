@@ -327,110 +327,19 @@ references:
   commentId: T:Svg.Document_Structure.SvgSymbol
   fullName: Svg.Document_Structure.SvgSymbol
   nameWithType: SvgSymbol
-- uid: Svg.Document_Structure.SvgSymbol.AspectRatio
-  name: AspectRatio
-  href: api/Svg.Document_Structure.SvgSymbol.html#Svg_Document_Structure_SvgSymbol_AspectRatio
-  commentId: P:Svg.Document_Structure.SvgSymbol.AspectRatio
-  fullName: Svg.Document_Structure.SvgSymbol.AspectRatio
-  nameWithType: SvgSymbol.AspectRatio
-- uid: Svg.Document_Structure.SvgSymbol.AspectRatio*
-  name: AspectRatio
-  href: api/Svg.Document_Structure.SvgSymbol.html#Svg_Document_Structure_SvgSymbol_AspectRatio_
-  commentId: Overload:Svg.Document_Structure.SvgSymbol.AspectRatio
+- uid: Svg.Document_Structure.SvgSymbol.#ctor
+  name: SvgSymbol()
+  href: api/Svg.Document_Structure.SvgSymbol.html#Svg_Document_Structure_SvgSymbol__ctor
+  commentId: M:Svg.Document_Structure.SvgSymbol.#ctor
+  fullName: Svg.Document_Structure.SvgSymbol.SvgSymbol()
+  nameWithType: SvgSymbol.SvgSymbol()
+- uid: Svg.Document_Structure.SvgSymbol.#ctor*
+  name: SvgSymbol
+  href: api/Svg.Document_Structure.SvgSymbol.html#Svg_Document_Structure_SvgSymbol__ctor_
+  commentId: Overload:Svg.Document_Structure.SvgSymbol.#ctor
   isSpec: "True"
-  fullName: Svg.Document_Structure.SvgSymbol.AspectRatio
-  nameWithType: SvgSymbol.AspectRatio
-- uid: Svg.Document_Structure.SvgSymbol.Bounds
-  name: Bounds
-  href: api/Svg.Document_Structure.SvgSymbol.html#Svg_Document_Structure_SvgSymbol_Bounds
-  commentId: P:Svg.Document_Structure.SvgSymbol.Bounds
-  fullName: Svg.Document_Structure.SvgSymbol.Bounds
-  nameWithType: SvgSymbol.Bounds
-- uid: Svg.Document_Structure.SvgSymbol.Bounds*
-  name: Bounds
-  href: api/Svg.Document_Structure.SvgSymbol.html#Svg_Document_Structure_SvgSymbol_Bounds_
-  commentId: Overload:Svg.Document_Structure.SvgSymbol.Bounds
-  isSpec: "True"
-  fullName: Svg.Document_Structure.SvgSymbol.Bounds
-  nameWithType: SvgSymbol.Bounds
-- uid: Svg.Document_Structure.SvgSymbol.DeepCopy
-  name: DeepCopy()
-  href: api/Svg.Document_Structure.SvgSymbol.html#Svg_Document_Structure_SvgSymbol_DeepCopy
-  commentId: M:Svg.Document_Structure.SvgSymbol.DeepCopy
-  fullName: Svg.Document_Structure.SvgSymbol.DeepCopy()
-  nameWithType: SvgSymbol.DeepCopy()
-- uid: Svg.Document_Structure.SvgSymbol.DeepCopy*
-  name: DeepCopy
-  href: api/Svg.Document_Structure.SvgSymbol.html#Svg_Document_Structure_SvgSymbol_DeepCopy_
-  commentId: Overload:Svg.Document_Structure.SvgSymbol.DeepCopy
-  isSpec: "True"
-  fullName: Svg.Document_Structure.SvgSymbol.DeepCopy
-  nameWithType: SvgSymbol.DeepCopy
-- uid: Svg.Document_Structure.SvgSymbol.Path(Svg.ISvgRenderer)
-  name: Path(ISvgRenderer)
-  href: api/Svg.Document_Structure.SvgSymbol.html#Svg_Document_Structure_SvgSymbol_Path_Svg_ISvgRenderer_
-  commentId: M:Svg.Document_Structure.SvgSymbol.Path(Svg.ISvgRenderer)
-  fullName: Svg.Document_Structure.SvgSymbol.Path(Svg.ISvgRenderer)
-  nameWithType: SvgSymbol.Path(ISvgRenderer)
-- uid: Svg.Document_Structure.SvgSymbol.Path*
-  name: Path
-  href: api/Svg.Document_Structure.SvgSymbol.html#Svg_Document_Structure_SvgSymbol_Path_
-  commentId: Overload:Svg.Document_Structure.SvgSymbol.Path
-  isSpec: "True"
-  fullName: Svg.Document_Structure.SvgSymbol.Path
-  nameWithType: SvgSymbol.Path
-- uid: Svg.Document_Structure.SvgSymbol.PushTransforms(Svg.ISvgRenderer)
-  name: PushTransforms(ISvgRenderer)
-  href: api/Svg.Document_Structure.SvgSymbol.html#Svg_Document_Structure_SvgSymbol_PushTransforms_Svg_ISvgRenderer_
-  commentId: M:Svg.Document_Structure.SvgSymbol.PushTransforms(Svg.ISvgRenderer)
-  fullName: Svg.Document_Structure.SvgSymbol.PushTransforms(Svg.ISvgRenderer)
-  nameWithType: SvgSymbol.PushTransforms(ISvgRenderer)
-- uid: Svg.Document_Structure.SvgSymbol.PushTransforms*
-  name: PushTransforms
-  href: api/Svg.Document_Structure.SvgSymbol.html#Svg_Document_Structure_SvgSymbol_PushTransforms_
-  commentId: Overload:Svg.Document_Structure.SvgSymbol.PushTransforms
-  isSpec: "True"
-  fullName: Svg.Document_Structure.SvgSymbol.PushTransforms
-  nameWithType: SvgSymbol.PushTransforms
-- uid: Svg.Document_Structure.SvgSymbol.Render(Svg.ISvgRenderer)
-  name: Render(ISvgRenderer)
-  href: api/Svg.Document_Structure.SvgSymbol.html#Svg_Document_Structure_SvgSymbol_Render_Svg_ISvgRenderer_
-  commentId: M:Svg.Document_Structure.SvgSymbol.Render(Svg.ISvgRenderer)
-  fullName: Svg.Document_Structure.SvgSymbol.Render(Svg.ISvgRenderer)
-  nameWithType: SvgSymbol.Render(ISvgRenderer)
-- uid: Svg.Document_Structure.SvgSymbol.Render*
-  name: Render
-  href: api/Svg.Document_Structure.SvgSymbol.html#Svg_Document_Structure_SvgSymbol_Render_
-  commentId: Overload:Svg.Document_Structure.SvgSymbol.Render
-  isSpec: "True"
-  fullName: Svg.Document_Structure.SvgSymbol.Render
-  nameWithType: SvgSymbol.Render
-- uid: Svg.Document_Structure.SvgSymbol.Renderable
-  name: Renderable
-  href: api/Svg.Document_Structure.SvgSymbol.html#Svg_Document_Structure_SvgSymbol_Renderable
-  commentId: P:Svg.Document_Structure.SvgSymbol.Renderable
-  fullName: Svg.Document_Structure.SvgSymbol.Renderable
-  nameWithType: SvgSymbol.Renderable
-- uid: Svg.Document_Structure.SvgSymbol.Renderable*
-  name: Renderable
-  href: api/Svg.Document_Structure.SvgSymbol.html#Svg_Document_Structure_SvgSymbol_Renderable_
-  commentId: Overload:Svg.Document_Structure.SvgSymbol.Renderable
-  isSpec: "True"
-  fullName: Svg.Document_Structure.SvgSymbol.Renderable
-  nameWithType: SvgSymbol.Renderable
-- uid: Svg.Document_Structure.SvgSymbol.ViewBox
-  name: ViewBox
-  href: api/Svg.Document_Structure.SvgSymbol.html#Svg_Document_Structure_SvgSymbol_ViewBox
-  commentId: P:Svg.Document_Structure.SvgSymbol.ViewBox
-  fullName: Svg.Document_Structure.SvgSymbol.ViewBox
-  nameWithType: SvgSymbol.ViewBox
-- uid: Svg.Document_Structure.SvgSymbol.ViewBox*
-  name: ViewBox
-  href: api/Svg.Document_Structure.SvgSymbol.html#Svg_Document_Structure_SvgSymbol_ViewBox_
-  commentId: Overload:Svg.Document_Structure.SvgSymbol.ViewBox
-  isSpec: "True"
-  fullName: Svg.Document_Structure.SvgSymbol.ViewBox
-  nameWithType: SvgSymbol.ViewBox
+  fullName: Svg.Document_Structure.SvgSymbol.SvgSymbol
+  nameWithType: SvgSymbol.SvgSymbol
 - uid: Svg.EnumBaseConverter`1
   name: EnumBaseConverter<T>
   href: api/Svg.EnumBaseConverter-1.html
@@ -644,11 +553,11 @@ references:
   commentId: T:Svg.ExtensionMethods.UriExtensions
   fullName: Svg.ExtensionMethods.UriExtensions
   nameWithType: UriExtensions
-- uid: Svg.ExtensionMethods.UriExtensions.ReplaceWithNullIfNone(Uri)
+- uid: Svg.ExtensionMethods.UriExtensions.ReplaceWithNullIfNone(System.Uri)
   name: ReplaceWithNullIfNone(Uri)
-  href: api/Svg.ExtensionMethods.UriExtensions.html#Svg_ExtensionMethods_UriExtensions_ReplaceWithNullIfNone_Uri_
-  commentId: M:Svg.ExtensionMethods.UriExtensions.ReplaceWithNullIfNone(Uri)
-  fullName: Svg.ExtensionMethods.UriExtensions.ReplaceWithNullIfNone(Uri)
+  href: api/Svg.ExtensionMethods.UriExtensions.html#Svg_ExtensionMethods_UriExtensions_ReplaceWithNullIfNone_System_Uri_
+  commentId: M:Svg.ExtensionMethods.UriExtensions.ReplaceWithNullIfNone(System.Uri)
+  fullName: Svg.ExtensionMethods.UriExtensions.ReplaceWithNullIfNone(System.Uri)
   nameWithType: UriExtensions.ReplaceWithNullIfNone(Uri)
 - uid: Svg.ExtensionMethods.UriExtensions.ReplaceWithNullIfNone*
   name: ReplaceWithNullIfNone
@@ -679,6 +588,49 @@ references:
   fullName.vb: Svg.Extensions.Descendants(Of T)(System.Collections.Generic.IEnumerable(Of T))
   nameWithType: Extensions.Descendants<T>(IEnumerable<T>)
   nameWithType.vb: Extensions.Descendants(Of T)(IEnumerable(Of T))
+- uid: Svg.ExternalType
+  name: ExternalType
+  href: api/Svg.ExternalType.html
+  commentId: T:Svg.ExternalType
+  fullName: Svg.ExternalType
+  nameWithType: ExternalType
+- uid: Svg.ExternalType.Local
+  name: Local
+  href: api/Svg.ExternalType.html#Svg_ExternalType_Local
+  commentId: F:Svg.ExternalType.Local
+  fullName: Svg.ExternalType.Local
+  nameWithType: ExternalType.Local
+- uid: Svg.ExternalType.None
+  name: None
+  href: api/Svg.ExternalType.html#Svg_ExternalType_None
+  commentId: F:Svg.ExternalType.None
+  fullName: Svg.ExternalType.None
+  nameWithType: ExternalType.None
+- uid: Svg.ExternalType.Remote
+  name: Remote
+  href: api/Svg.ExternalType.html#Svg_ExternalType_Remote
+  commentId: F:Svg.ExternalType.Remote
+  fullName: Svg.ExternalType.Remote
+  nameWithType: ExternalType.Remote
+- uid: Svg.ExternalTypeExtensions
+  name: ExternalTypeExtensions
+  href: api/Svg.ExternalTypeExtensions.html
+  commentId: T:Svg.ExternalTypeExtensions
+  fullName: Svg.ExternalTypeExtensions
+  nameWithType: ExternalTypeExtensions
+- uid: Svg.ExternalTypeExtensions.AllowsResolving(Svg.ExternalType,System.Uri)
+  name: AllowsResolving(ExternalType, Uri)
+  href: api/Svg.ExternalTypeExtensions.html#Svg_ExternalTypeExtensions_AllowsResolving_Svg_ExternalType_System_Uri_
+  commentId: M:Svg.ExternalTypeExtensions.AllowsResolving(Svg.ExternalType,System.Uri)
+  fullName: Svg.ExternalTypeExtensions.AllowsResolving(Svg.ExternalType, System.Uri)
+  nameWithType: ExternalTypeExtensions.AllowsResolving(ExternalType, Uri)
+- uid: Svg.ExternalTypeExtensions.AllowsResolving*
+  name: AllowsResolving
+  href: api/Svg.ExternalTypeExtensions.html#Svg_ExternalTypeExtensions_AllowsResolving_
+  commentId: Overload:Svg.ExternalTypeExtensions.AllowsResolving
+  isSpec: "True"
+  fullName: Svg.ExternalTypeExtensions.AllowsResolving
+  nameWithType: ExternalTypeExtensions.AllowsResolving
 - uid: Svg.FilterEffects
   name: Svg.FilterEffects
   href: api/Svg.FilterEffects.html
@@ -3071,12 +3023,12 @@ references:
   commentId: T:Svg.GdiFontDefn
   fullName: Svg.GdiFontDefn
   nameWithType: GdiFontDefn
-- uid: Svg.GdiFontDefn.#ctor(Font)
-  name: GdiFontDefn(Font)
-  href: api/Svg.GdiFontDefn.html#Svg_GdiFontDefn__ctor_Font_
-  commentId: M:Svg.GdiFontDefn.#ctor(Font)
-  fullName: Svg.GdiFontDefn.GdiFontDefn(Font)
-  nameWithType: GdiFontDefn.GdiFontDefn(Font)
+- uid: Svg.GdiFontDefn.#ctor(Font,System.Single)
+  name: GdiFontDefn(Font, Single)
+  href: api/Svg.GdiFontDefn.html#Svg_GdiFontDefn__ctor_Font_System_Single_
+  commentId: M:Svg.GdiFontDefn.#ctor(Font,System.Single)
+  fullName: Svg.GdiFontDefn.GdiFontDefn(Font, System.Single)
+  nameWithType: GdiFontDefn.GdiFontDefn(Font, Single)
 - uid: Svg.GdiFontDefn.#ctor*
   name: GdiFontDefn
   href: api/Svg.GdiFontDefn.html#Svg_GdiFontDefn__ctor_
@@ -5166,36 +5118,18 @@ references:
   isSpec: "True"
   fullName: Svg.SvgAttributeAttribute.NameSpace
   nameWithType: SvgAttributeAttribute.NameSpace
-- uid: Svg.SvgAttributeAttribute.Namespaces
-  name: Namespaces
-  href: api/Svg.SvgAttributeAttribute.html#Svg_SvgAttributeAttribute_Namespaces
-  commentId: F:Svg.SvgAttributeAttribute.Namespaces
-  fullName: Svg.SvgAttributeAttribute.Namespaces
-  nameWithType: SvgAttributeAttribute.Namespaces
 - uid: Svg.SvgAttributeAttribute.XLinkNamespace
   name: XLinkNamespace
   href: api/Svg.SvgAttributeAttribute.html#Svg_SvgAttributeAttribute_XLinkNamespace
   commentId: F:Svg.SvgAttributeAttribute.XLinkNamespace
   fullName: Svg.SvgAttributeAttribute.XLinkNamespace
   nameWithType: SvgAttributeAttribute.XLinkNamespace
-- uid: Svg.SvgAttributeAttribute.XLinkPrefix
-  name: XLinkPrefix
-  href: api/Svg.SvgAttributeAttribute.html#Svg_SvgAttributeAttribute_XLinkPrefix
-  commentId: F:Svg.SvgAttributeAttribute.XLinkPrefix
-  fullName: Svg.SvgAttributeAttribute.XLinkPrefix
-  nameWithType: SvgAttributeAttribute.XLinkPrefix
 - uid: Svg.SvgAttributeAttribute.XmlNamespace
   name: XmlNamespace
   href: api/Svg.SvgAttributeAttribute.html#Svg_SvgAttributeAttribute_XmlNamespace
   commentId: F:Svg.SvgAttributeAttribute.XmlNamespace
   fullName: Svg.SvgAttributeAttribute.XmlNamespace
   nameWithType: SvgAttributeAttribute.XmlNamespace
-- uid: Svg.SvgAttributeAttribute.XmlPrefix
-  name: XmlPrefix
-  href: api/Svg.SvgAttributeAttribute.html#Svg_SvgAttributeAttribute_XmlPrefix
-  commentId: F:Svg.SvgAttributeAttribute.XmlPrefix
-  fullName: Svg.SvgAttributeAttribute.XmlPrefix
-  nameWithType: SvgAttributeAttribute.XmlPrefix
 - uid: Svg.SvgAttributeCollection
   name: SvgAttributeCollection
   href: api/Svg.SvgAttributeCollection.html
@@ -5547,11 +5481,11 @@ references:
   fullName: Svg.SvgColourConverter
   nameWithType: SvgColourConverter
 - uid: Svg.SvgColourConverter.CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type)
-  name: CanConvertFrom(ComponentModel.ITypeDescriptorContext, Type)
+  name: CanConvertFrom(ITypeDescriptorContext, Type)
   href: api/Svg.SvgColourConverter.html#Svg_SvgColourConverter_CanConvertFrom_System_ComponentModel_ITypeDescriptorContext_System_Type_
   commentId: M:Svg.SvgColourConverter.CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type)
   fullName: Svg.SvgColourConverter.CanConvertFrom(System.ComponentModel.ITypeDescriptorContext, System.Type)
-  nameWithType: SvgColourConverter.CanConvertFrom(ComponentModel.ITypeDescriptorContext, Type)
+  nameWithType: SvgColourConverter.CanConvertFrom(ITypeDescriptorContext, Type)
 - uid: Svg.SvgColourConverter.CanConvertFrom*
   name: CanConvertFrom
   href: api/Svg.SvgColourConverter.html#Svg_SvgColourConverter_CanConvertFrom_
@@ -5560,11 +5494,11 @@ references:
   fullName: Svg.SvgColourConverter.CanConvertFrom
   nameWithType: SvgColourConverter.CanConvertFrom
 - uid: Svg.SvgColourConverter.CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type)
-  name: CanConvertTo(ComponentModel.ITypeDescriptorContext, Type)
+  name: CanConvertTo(ITypeDescriptorContext, Type)
   href: api/Svg.SvgColourConverter.html#Svg_SvgColourConverter_CanConvertTo_System_ComponentModel_ITypeDescriptorContext_System_Type_
   commentId: M:Svg.SvgColourConverter.CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type)
   fullName: Svg.SvgColourConverter.CanConvertTo(System.ComponentModel.ITypeDescriptorContext, System.Type)
-  nameWithType: SvgColourConverter.CanConvertTo(ComponentModel.ITypeDescriptorContext, Type)
+  nameWithType: SvgColourConverter.CanConvertTo(ITypeDescriptorContext, Type)
 - uid: Svg.SvgColourConverter.CanConvertTo*
   name: CanConvertTo
   href: api/Svg.SvgColourConverter.html#Svg_SvgColourConverter_CanConvertTo_
@@ -5573,11 +5507,11 @@ references:
   fullName: Svg.SvgColourConverter.CanConvertTo
   nameWithType: SvgColourConverter.CanConvertTo
 - uid: Svg.SvgColourConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)
-  name: ConvertFrom(ComponentModel.ITypeDescriptorContext, CultureInfo, Object)
+  name: ConvertFrom(ITypeDescriptorContext, CultureInfo, Object)
   href: api/Svg.SvgColourConverter.html#Svg_SvgColourConverter_ConvertFrom_System_ComponentModel_ITypeDescriptorContext_System_Globalization_CultureInfo_System_Object_
   commentId: M:Svg.SvgColourConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)
   fullName: Svg.SvgColourConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext, System.Globalization.CultureInfo, System.Object)
-  nameWithType: SvgColourConverter.ConvertFrom(ComponentModel.ITypeDescriptorContext, CultureInfo, Object)
+  nameWithType: SvgColourConverter.ConvertFrom(ITypeDescriptorContext, CultureInfo, Object)
 - uid: Svg.SvgColourConverter.ConvertFrom*
   name: ConvertFrom
   href: api/Svg.SvgColourConverter.html#Svg_SvgColourConverter_ConvertFrom_
@@ -5586,11 +5520,11 @@ references:
   fullName: Svg.SvgColourConverter.ConvertFrom
   nameWithType: SvgColourConverter.ConvertFrom
 - uid: Svg.SvgColourConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext,CultureInfo,System.Object,System.Type)
-  name: ConvertTo(ComponentModel.ITypeDescriptorContext, CultureInfo, Object, Type)
+  name: ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type)
   href: api/Svg.SvgColourConverter.html#Svg_SvgColourConverter_ConvertTo_System_ComponentModel_ITypeDescriptorContext_CultureInfo_System_Object_System_Type_
   commentId: M:Svg.SvgColourConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext,CultureInfo,System.Object,System.Type)
   fullName: Svg.SvgColourConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext, CultureInfo, System.Object, System.Type)
-  nameWithType: SvgColourConverter.ConvertTo(ComponentModel.ITypeDescriptorContext, CultureInfo, Object, Type)
+  nameWithType: SvgColourConverter.ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type)
 - uid: Svg.SvgColourConverter.ConvertTo*
   name: ConvertTo
   href: api/Svg.SvgColourConverter.html#Svg_SvgColourConverter_ConvertTo_
@@ -6297,6 +6231,15 @@ references:
   fullName.vb: Svg.SvgDocument.Open(Of T)(System.String, System.Collections.Generic.Dictionary(Of System.String, System.String))
   nameWithType: SvgDocument.Open<T>(String, Dictionary<String, String>)
   nameWithType.vb: SvgDocument.Open(Of T)(String, Dictionary(Of String, String))
+- uid: Svg.SvgDocument.Open``1(XmlReader)
+  name: Open<T>(XmlReader)
+  href: api/Svg.SvgDocument.html#Svg_SvgDocument_Open__1_XmlReader_
+  commentId: M:Svg.SvgDocument.Open``1(XmlReader)
+  name.vb: Open(Of T)(XmlReader)
+  fullName: Svg.SvgDocument.Open<T>(XmlReader)
+  fullName.vb: Svg.SvgDocument.Open(Of T)(XmlReader)
+  nameWithType: SvgDocument.Open<T>(XmlReader)
+  nameWithType.vb: SvgDocument.Open(Of T)(XmlReader)
 - uid: Svg.SvgDocument.OpenAsBitmap(System.String)
   name: OpenAsBitmap(String)
   href: api/Svg.SvgDocument.html#Svg_SvgDocument_OpenAsBitmap_System_String_
@@ -6384,6 +6327,45 @@ references:
   isSpec: "True"
   fullName: Svg.SvgDocument.RasterizeDimensions
   nameWithType: SvgDocument.RasterizeDimensions
+- uid: Svg.SvgDocument.ResolveExternalElements
+  name: ResolveExternalElements
+  href: api/Svg.SvgDocument.html#Svg_SvgDocument_ResolveExternalElements
+  commentId: P:Svg.SvgDocument.ResolveExternalElements
+  fullName: Svg.SvgDocument.ResolveExternalElements
+  nameWithType: SvgDocument.ResolveExternalElements
+- uid: Svg.SvgDocument.ResolveExternalElements*
+  name: ResolveExternalElements
+  href: api/Svg.SvgDocument.html#Svg_SvgDocument_ResolveExternalElements_
+  commentId: Overload:Svg.SvgDocument.ResolveExternalElements
+  isSpec: "True"
+  fullName: Svg.SvgDocument.ResolveExternalElements
+  nameWithType: SvgDocument.ResolveExternalElements
+- uid: Svg.SvgDocument.ResolveExternalImages
+  name: ResolveExternalImages
+  href: api/Svg.SvgDocument.html#Svg_SvgDocument_ResolveExternalImages
+  commentId: P:Svg.SvgDocument.ResolveExternalImages
+  fullName: Svg.SvgDocument.ResolveExternalImages
+  nameWithType: SvgDocument.ResolveExternalImages
+- uid: Svg.SvgDocument.ResolveExternalImages*
+  name: ResolveExternalImages
+  href: api/Svg.SvgDocument.html#Svg_SvgDocument_ResolveExternalImages_
+  commentId: Overload:Svg.SvgDocument.ResolveExternalImages
+  isSpec: "True"
+  fullName: Svg.SvgDocument.ResolveExternalImages
+  nameWithType: SvgDocument.ResolveExternalImages
+- uid: Svg.SvgDocument.ResolveExternalXmlEntites
+  name: ResolveExternalXmlEntites
+  href: api/Svg.SvgDocument.html#Svg_SvgDocument_ResolveExternalXmlEntites
+  commentId: P:Svg.SvgDocument.ResolveExternalXmlEntites
+  fullName: Svg.SvgDocument.ResolveExternalXmlEntites
+  nameWithType: SvgDocument.ResolveExternalXmlEntites
+- uid: Svg.SvgDocument.ResolveExternalXmlEntites*
+  name: ResolveExternalXmlEntites
+  href: api/Svg.SvgDocument.html#Svg_SvgDocument_ResolveExternalXmlEntites_
+  commentId: Overload:Svg.SvgDocument.ResolveExternalXmlEntites
+  isSpec: "True"
+  fullName: Svg.SvgDocument.ResolveExternalXmlEntites
+  nameWithType: SvgDocument.ResolveExternalXmlEntites
 - uid: Svg.SvgDocument.SkipGdiPlusCapabilityCheck
   name: SkipGdiPlusCapabilityCheck
   href: api/Svg.SvgDocument.html#Svg_SvgDocument_SkipGdiPlusCapabilityCheck
@@ -6439,12 +6421,12 @@ references:
   commentId: M:Svg.SvgDocument.Write(System.String,System.Boolean)
   fullName: Svg.SvgDocument.Write(System.String, System.Boolean)
   nameWithType: SvgDocument.Write(String, Boolean)
-- uid: Svg.SvgDocument.Write(XmlTextWriter)
-  name: Write(XmlTextWriter)
-  href: api/Svg.SvgDocument.html#Svg_SvgDocument_Write_XmlTextWriter_
-  commentId: M:Svg.SvgDocument.Write(XmlTextWriter)
-  fullName: Svg.SvgDocument.Write(XmlTextWriter)
-  nameWithType: SvgDocument.Write(XmlTextWriter)
+- uid: Svg.SvgDocument.Write(XmlWriter)
+  name: Write(XmlWriter)
+  href: api/Svg.SvgDocument.html#Svg_SvgDocument_Write_XmlWriter_
+  commentId: M:Svg.SvgDocument.Write(XmlWriter)
+  fullName: Svg.SvgDocument.Write(XmlWriter)
+  nameWithType: SvgDocument.Write(XmlWriter)
 - uid: Svg.SvgDocument.Write*
   name: Write
   href: api/Svg.SvgDocument.html#Svg_SvgDocument_Write_
@@ -6452,19 +6434,45 @@ references:
   isSpec: "True"
   fullName: Svg.SvgDocument.Write
   nameWithType: SvgDocument.Write
-- uid: Svg.SvgDocument.WriteStartElement(XmlTextWriter)
-  name: WriteStartElement(XmlTextWriter)
-  href: api/Svg.SvgDocument.html#Svg_SvgDocument_WriteStartElement_XmlTextWriter_
-  commentId: M:Svg.SvgDocument.WriteStartElement(XmlTextWriter)
-  fullName: Svg.SvgDocument.WriteStartElement(XmlTextWriter)
-  nameWithType: SvgDocument.WriteStartElement(XmlTextWriter)
-- uid: Svg.SvgDocument.WriteStartElement*
-  name: WriteStartElement
-  href: api/Svg.SvgDocument.html#Svg_SvgDocument_WriteStartElement_
-  commentId: Overload:Svg.SvgDocument.WriteStartElement
+- uid: Svg.SvgDocument.WriteAttributes(XmlWriter)
+  name: WriteAttributes(XmlWriter)
+  href: api/Svg.SvgDocument.html#Svg_SvgDocument_WriteAttributes_XmlWriter_
+  commentId: M:Svg.SvgDocument.WriteAttributes(XmlWriter)
+  fullName: Svg.SvgDocument.WriteAttributes(XmlWriter)
+  nameWithType: SvgDocument.WriteAttributes(XmlWriter)
+- uid: Svg.SvgDocument.WriteAttributes*
+  name: WriteAttributes
+  href: api/Svg.SvgDocument.html#Svg_SvgDocument_WriteAttributes_
+  commentId: Overload:Svg.SvgDocument.WriteAttributes
   isSpec: "True"
-  fullName: Svg.SvgDocument.WriteStartElement
-  nameWithType: SvgDocument.WriteStartElement
+  fullName: Svg.SvgDocument.WriteAttributes
+  nameWithType: SvgDocument.WriteAttributes
+- uid: Svg.SvgDocument.X
+  name: X
+  href: api/Svg.SvgDocument.html#Svg_SvgDocument_X
+  commentId: P:Svg.SvgDocument.X
+  fullName: Svg.SvgDocument.X
+  nameWithType: SvgDocument.X
+- uid: Svg.SvgDocument.X*
+  name: X
+  href: api/Svg.SvgDocument.html#Svg_SvgDocument_X_
+  commentId: Overload:Svg.SvgDocument.X
+  isSpec: "True"
+  fullName: Svg.SvgDocument.X
+  nameWithType: SvgDocument.X
+- uid: Svg.SvgDocument.Y
+  name: Y
+  href: api/Svg.SvgDocument.html#Svg_SvgDocument_Y
+  commentId: P:Svg.SvgDocument.Y
+  fullName: Svg.SvgDocument.Y
+  nameWithType: SvgDocument.Y
+- uid: Svg.SvgDocument.Y*
+  name: Y
+  href: api/Svg.SvgDocument.html#Svg_SvgDocument_Y_
+  commentId: Overload:Svg.SvgDocument.Y
+  isSpec: "True"
+  fullName: Svg.SvgDocument.Y
+  nameWithType: SvgDocument.Y
 - uid: Svg.SvgDocumentMetadata
   name: SvgDocumentMetadata
   href: api/Svg.SvgDocumentMetadata.html
@@ -6497,12 +6505,12 @@ references:
   isSpec: "True"
   fullName: Svg.SvgDocumentMetadata.DeepCopy
   nameWithType: SvgDocumentMetadata.DeepCopy
-- uid: Svg.SvgDocumentMetadata.InitialiseFromXML(XmlTextReader,Svg.SvgDocument)
-  name: InitialiseFromXML(XmlTextReader, SvgDocument)
-  href: api/Svg.SvgDocumentMetadata.html#Svg_SvgDocumentMetadata_InitialiseFromXML_XmlTextReader_Svg_SvgDocument_
-  commentId: M:Svg.SvgDocumentMetadata.InitialiseFromXML(XmlTextReader,Svg.SvgDocument)
-  fullName: Svg.SvgDocumentMetadata.InitialiseFromXML(XmlTextReader, Svg.SvgDocument)
-  nameWithType: SvgDocumentMetadata.InitialiseFromXML(XmlTextReader, SvgDocument)
+- uid: Svg.SvgDocumentMetadata.InitialiseFromXML(XmlReader,Svg.SvgDocument)
+  name: InitialiseFromXML(XmlReader, SvgDocument)
+  href: api/Svg.SvgDocumentMetadata.html#Svg_SvgDocumentMetadata_InitialiseFromXML_XmlReader_Svg_SvgDocument_
+  commentId: M:Svg.SvgDocumentMetadata.InitialiseFromXML(XmlReader,Svg.SvgDocument)
+  fullName: Svg.SvgDocumentMetadata.InitialiseFromXML(XmlReader, Svg.SvgDocument)
+  nameWithType: SvgDocumentMetadata.InitialiseFromXML(XmlReader, SvgDocument)
 - uid: Svg.SvgDocumentMetadata.InitialiseFromXML*
   name: InitialiseFromXML
   href: api/Svg.SvgDocumentMetadata.html#Svg_SvgDocumentMetadata_InitialiseFromXML_
@@ -6523,12 +6531,12 @@ references:
   isSpec: "True"
   fullName: Svg.SvgDocumentMetadata.Render
   nameWithType: SvgDocumentMetadata.Render
-- uid: Svg.SvgDocumentMetadata.WriteChildren(XmlTextWriter)
-  name: WriteChildren(XmlTextWriter)
-  href: api/Svg.SvgDocumentMetadata.html#Svg_SvgDocumentMetadata_WriteChildren_XmlTextWriter_
-  commentId: M:Svg.SvgDocumentMetadata.WriteChildren(XmlTextWriter)
-  fullName: Svg.SvgDocumentMetadata.WriteChildren(XmlTextWriter)
-  nameWithType: SvgDocumentMetadata.WriteChildren(XmlTextWriter)
+- uid: Svg.SvgDocumentMetadata.WriteChildren(XmlWriter)
+  name: WriteChildren(XmlWriter)
+  href: api/Svg.SvgDocumentMetadata.html#Svg_SvgDocumentMetadata_WriteChildren_XmlWriter_
+  commentId: M:Svg.SvgDocumentMetadata.WriteChildren(XmlWriter)
+  fullName: Svg.SvgDocumentMetadata.WriteChildren(XmlWriter)
+  nameWithType: SvgDocumentMetadata.WriteChildren(XmlWriter)
 - uid: Svg.SvgDocumentMetadata.WriteChildren*
   name: WriteChildren
   href: api/Svg.SvgDocumentMetadata.html#Svg_SvgDocumentMetadata_WriteChildren_
@@ -7076,12 +7084,12 @@ references:
   isSpec: "True"
   fullName: Svg.SvgElement.ID
   nameWithType: SvgElement.ID
-- uid: Svg.SvgElement.InitialiseFromXML(XmlTextReader,Svg.SvgDocument)
-  name: InitialiseFromXML(XmlTextReader, SvgDocument)
-  href: api/Svg.SvgElement.html#Svg_SvgElement_InitialiseFromXML_XmlTextReader_Svg_SvgDocument_
-  commentId: M:Svg.SvgElement.InitialiseFromXML(XmlTextReader,Svg.SvgDocument)
-  fullName: Svg.SvgElement.InitialiseFromXML(XmlTextReader, Svg.SvgDocument)
-  nameWithType: SvgElement.InitialiseFromXML(XmlTextReader, SvgDocument)
+- uid: Svg.SvgElement.InitialiseFromXML(XmlReader,Svg.SvgDocument)
+  name: InitialiseFromXML(XmlReader, SvgDocument)
+  href: api/Svg.SvgElement.html#Svg_SvgElement_InitialiseFromXML_XmlReader_Svg_SvgDocument_
+  commentId: M:Svg.SvgElement.InitialiseFromXML(XmlReader,Svg.SvgDocument)
+  fullName: Svg.SvgElement.InitialiseFromXML(XmlReader, Svg.SvgDocument)
+  nameWithType: SvgElement.InitialiseFromXML(XmlReader, SvgDocument)
 - uid: Svg.SvgElement.InitialiseFromXML*
   name: InitialiseFromXML
   href: api/Svg.SvgElement.html#Svg_SvgElement_InitialiseFromXML_
@@ -7157,6 +7165,19 @@ references:
   commentId: E:Svg.SvgElement.MouseUp
   fullName: Svg.SvgElement.MouseUp
   nameWithType: SvgElement.MouseUp
+- uid: Svg.SvgElement.Namespaces
+  name: Namespaces
+  href: api/Svg.SvgElement.html#Svg_SvgElement_Namespaces
+  commentId: P:Svg.SvgElement.Namespaces
+  fullName: Svg.SvgElement.Namespaces
+  nameWithType: SvgElement.Namespaces
+- uid: Svg.SvgElement.Namespaces*
+  name: Namespaces
+  href: api/Svg.SvgElement.html#Svg_SvgElement_Namespaces_
+  commentId: Overload:Svg.SvgElement.Namespaces
+  isSpec: "True"
+  fullName: Svg.SvgElement.Namespaces
+  nameWithType: SvgElement.Namespaces
 - uid: Svg.SvgElement.Nodes
   name: Nodes
   href: api/Svg.SvgElement.html#Svg_SvgElement_Nodes
@@ -7778,12 +7799,12 @@ references:
   isSpec: "True"
   fullName: Svg.SvgElement.Visibility
   nameWithType: SvgElement.Visibility
-- uid: Svg.SvgElement.Write(XmlTextWriter)
-  name: Write(XmlTextWriter)
-  href: api/Svg.SvgElement.html#Svg_SvgElement_Write_XmlTextWriter_
-  commentId: M:Svg.SvgElement.Write(XmlTextWriter)
-  fullName: Svg.SvgElement.Write(XmlTextWriter)
-  nameWithType: SvgElement.Write(XmlTextWriter)
+- uid: Svg.SvgElement.Write(XmlWriter)
+  name: Write(XmlWriter)
+  href: api/Svg.SvgElement.html#Svg_SvgElement_Write_XmlWriter_
+  commentId: M:Svg.SvgElement.Write(XmlWriter)
+  fullName: Svg.SvgElement.Write(XmlWriter)
+  nameWithType: SvgElement.Write(XmlWriter)
 - uid: Svg.SvgElement.Write*
   name: Write
   href: api/Svg.SvgElement.html#Svg_SvgElement_Write_
@@ -7791,12 +7812,12 @@ references:
   isSpec: "True"
   fullName: Svg.SvgElement.Write
   nameWithType: SvgElement.Write
-- uid: Svg.SvgElement.WriteAttributes(XmlTextWriter)
-  name: WriteAttributes(XmlTextWriter)
-  href: api/Svg.SvgElement.html#Svg_SvgElement_WriteAttributes_XmlTextWriter_
-  commentId: M:Svg.SvgElement.WriteAttributes(XmlTextWriter)
-  fullName: Svg.SvgElement.WriteAttributes(XmlTextWriter)
-  nameWithType: SvgElement.WriteAttributes(XmlTextWriter)
+- uid: Svg.SvgElement.WriteAttributes(XmlWriter)
+  name: WriteAttributes(XmlWriter)
+  href: api/Svg.SvgElement.html#Svg_SvgElement_WriteAttributes_XmlWriter_
+  commentId: M:Svg.SvgElement.WriteAttributes(XmlWriter)
+  fullName: Svg.SvgElement.WriteAttributes(XmlWriter)
+  nameWithType: SvgElement.WriteAttributes(XmlWriter)
 - uid: Svg.SvgElement.WriteAttributes*
   name: WriteAttributes
   href: api/Svg.SvgElement.html#Svg_SvgElement_WriteAttributes_
@@ -7804,12 +7825,12 @@ references:
   isSpec: "True"
   fullName: Svg.SvgElement.WriteAttributes
   nameWithType: SvgElement.WriteAttributes
-- uid: Svg.SvgElement.WriteChildren(XmlTextWriter)
-  name: WriteChildren(XmlTextWriter)
-  href: api/Svg.SvgElement.html#Svg_SvgElement_WriteChildren_XmlTextWriter_
-  commentId: M:Svg.SvgElement.WriteChildren(XmlTextWriter)
-  fullName: Svg.SvgElement.WriteChildren(XmlTextWriter)
-  nameWithType: SvgElement.WriteChildren(XmlTextWriter)
+- uid: Svg.SvgElement.WriteChildren(XmlWriter)
+  name: WriteChildren(XmlWriter)
+  href: api/Svg.SvgElement.html#Svg_SvgElement_WriteChildren_XmlWriter_
+  commentId: M:Svg.SvgElement.WriteChildren(XmlWriter)
+  fullName: Svg.SvgElement.WriteChildren(XmlWriter)
+  nameWithType: SvgElement.WriteChildren(XmlWriter)
 - uid: Svg.SvgElement.WriteChildren*
   name: WriteChildren
   href: api/Svg.SvgElement.html#Svg_SvgElement_WriteChildren_
@@ -7817,12 +7838,12 @@ references:
   isSpec: "True"
   fullName: Svg.SvgElement.WriteChildren
   nameWithType: SvgElement.WriteChildren
-- uid: Svg.SvgElement.WriteEndElement(XmlTextWriter)
-  name: WriteEndElement(XmlTextWriter)
-  href: api/Svg.SvgElement.html#Svg_SvgElement_WriteEndElement_XmlTextWriter_
-  commentId: M:Svg.SvgElement.WriteEndElement(XmlTextWriter)
-  fullName: Svg.SvgElement.WriteEndElement(XmlTextWriter)
-  nameWithType: SvgElement.WriteEndElement(XmlTextWriter)
+- uid: Svg.SvgElement.WriteEndElement(XmlWriter)
+  name: WriteEndElement(XmlWriter)
+  href: api/Svg.SvgElement.html#Svg_SvgElement_WriteEndElement_XmlWriter_
+  commentId: M:Svg.SvgElement.WriteEndElement(XmlWriter)
+  fullName: Svg.SvgElement.WriteEndElement(XmlWriter)
+  nameWithType: SvgElement.WriteEndElement(XmlWriter)
 - uid: Svg.SvgElement.WriteEndElement*
   name: WriteEndElement
   href: api/Svg.SvgElement.html#Svg_SvgElement_WriteEndElement_
@@ -7830,12 +7851,12 @@ references:
   isSpec: "True"
   fullName: Svg.SvgElement.WriteEndElement
   nameWithType: SvgElement.WriteEndElement
-- uid: Svg.SvgElement.WriteStartElement(XmlTextWriter)
-  name: WriteStartElement(XmlTextWriter)
-  href: api/Svg.SvgElement.html#Svg_SvgElement_WriteStartElement_XmlTextWriter_
-  commentId: M:Svg.SvgElement.WriteStartElement(XmlTextWriter)
-  fullName: Svg.SvgElement.WriteStartElement(XmlTextWriter)
-  nameWithType: SvgElement.WriteStartElement(XmlTextWriter)
+- uid: Svg.SvgElement.WriteStartElement(XmlWriter)
+  name: WriteStartElement(XmlWriter)
+  href: api/Svg.SvgElement.html#Svg_SvgElement_WriteStartElement_XmlWriter_
+  commentId: M:Svg.SvgElement.WriteStartElement(XmlWriter)
+  fullName: Svg.SvgElement.WriteStartElement(XmlWriter)
+  nameWithType: SvgElement.WriteStartElement(XmlWriter)
 - uid: Svg.SvgElement.WriteStartElement*
   name: WriteStartElement
   href: api/Svg.SvgElement.html#Svg_SvgElement_WriteStartElement_
@@ -8244,11 +8265,11 @@ references:
   commentId: M:Svg.SvgElementIdManager.GetElementById(System.String)
   fullName: Svg.SvgElementIdManager.GetElementById(System.String)
   nameWithType: SvgElementIdManager.GetElementById(String)
-- uid: Svg.SvgElementIdManager.GetElementById(Uri)
+- uid: Svg.SvgElementIdManager.GetElementById(System.Uri)
   name: GetElementById(Uri)
-  href: api/Svg.SvgElementIdManager.html#Svg_SvgElementIdManager_GetElementById_Uri_
-  commentId: M:Svg.SvgElementIdManager.GetElementById(Uri)
-  fullName: Svg.SvgElementIdManager.GetElementById(Uri)
+  href: api/Svg.SvgElementIdManager.html#Svg_SvgElementIdManager_GetElementById_System_Uri_
+  commentId: M:Svg.SvgElementIdManager.GetElementById(System.Uri)
+  fullName: Svg.SvgElementIdManager.GetElementById(System.Uri)
   nameWithType: SvgElementIdManager.GetElementById(Uri)
 - uid: Svg.SvgElementIdManager.GetElementById*
   name: GetElementById
@@ -8523,56 +8544,6 @@ references:
   isSpec: "True"
   fullName: Svg.SvgExtentions.SetRectangle
   nameWithType: SvgExtentions.SetRectangle
-- uid: Svg.SvgExtentions.Traverse*
-  name: Traverse
-  href: api/Svg.SvgExtentions.html#Svg_SvgExtentions_Traverse_
-  commentId: Overload:Svg.SvgExtentions.Traverse
-  isSpec: "True"
-  fullName: Svg.SvgExtentions.Traverse
-  nameWithType: SvgExtentions.Traverse
-- uid: Svg.SvgExtentions.Traverse``1(``0,System.Func{``0,System.Collections.Generic.IEnumerable{``0}})
-  name: Traverse<T>(T, Func<T, IEnumerable<T>>)
-  href: api/Svg.SvgExtentions.html#Svg_SvgExtentions_Traverse__1___0_System_Func___0_System_Collections_Generic_IEnumerable___0___
-  commentId: M:Svg.SvgExtentions.Traverse``1(``0,System.Func{``0,System.Collections.Generic.IEnumerable{``0}})
-  name.vb: Traverse(Of T)(T, Func(Of T, IEnumerable(Of T)))
-  fullName: Svg.SvgExtentions.Traverse<T>(T, System.Func<T, System.Collections.Generic.IEnumerable<T>>)
-  fullName.vb: Svg.SvgExtentions.Traverse(Of T)(T, System.Func(Of T, System.Collections.Generic.IEnumerable(Of T)))
-  nameWithType: SvgExtentions.Traverse<T>(T, Func<T, IEnumerable<T>>)
-  nameWithType.vb: SvgExtentions.Traverse(Of T)(T, Func(Of T, IEnumerable(Of T)))
-- uid: Svg.SvgExtentions.Traverse``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``0}})
-  name: Traverse<T>(IEnumerable<T>, Func<T, IEnumerable<T>>)
-  href: api/Svg.SvgExtentions.html#Svg_SvgExtentions_Traverse__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Collections_Generic_IEnumerable___0___
-  commentId: M:Svg.SvgExtentions.Traverse``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``0}})
-  name.vb: Traverse(Of T)(IEnumerable(Of T), Func(Of T, IEnumerable(Of T)))
-  fullName: Svg.SvgExtentions.Traverse<T>(System.Collections.Generic.IEnumerable<T>, System.Func<T, System.Collections.Generic.IEnumerable<T>>)
-  fullName.vb: Svg.SvgExtentions.Traverse(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, System.Collections.Generic.IEnumerable(Of T)))
-  nameWithType: SvgExtentions.Traverse<T>(IEnumerable<T>, Func<T, IEnumerable<T>>)
-  nameWithType.vb: SvgExtentions.Traverse(Of T)(IEnumerable(Of T), Func(Of T, IEnumerable(Of T)))
-- uid: Svg.SvgExtentions.TraverseDepthFirst*
-  name: TraverseDepthFirst
-  href: api/Svg.SvgExtentions.html#Svg_SvgExtentions_TraverseDepthFirst_
-  commentId: Overload:Svg.SvgExtentions.TraverseDepthFirst
-  isSpec: "True"
-  fullName: Svg.SvgExtentions.TraverseDepthFirst
-  nameWithType: SvgExtentions.TraverseDepthFirst
-- uid: Svg.SvgExtentions.TraverseDepthFirst``1(``0,System.Func{``0,System.Collections.Generic.IEnumerable{``0}})
-  name: TraverseDepthFirst<T>(T, Func<T, IEnumerable<T>>)
-  href: api/Svg.SvgExtentions.html#Svg_SvgExtentions_TraverseDepthFirst__1___0_System_Func___0_System_Collections_Generic_IEnumerable___0___
-  commentId: M:Svg.SvgExtentions.TraverseDepthFirst``1(``0,System.Func{``0,System.Collections.Generic.IEnumerable{``0}})
-  name.vb: TraverseDepthFirst(Of T)(T, Func(Of T, IEnumerable(Of T)))
-  fullName: Svg.SvgExtentions.TraverseDepthFirst<T>(T, System.Func<T, System.Collections.Generic.IEnumerable<T>>)
-  fullName.vb: Svg.SvgExtentions.TraverseDepthFirst(Of T)(T, System.Func(Of T, System.Collections.Generic.IEnumerable(Of T)))
-  nameWithType: SvgExtentions.TraverseDepthFirst<T>(T, Func<T, IEnumerable<T>>)
-  nameWithType.vb: SvgExtentions.TraverseDepthFirst(Of T)(T, Func(Of T, IEnumerable(Of T)))
-- uid: Svg.SvgExtentions.TraverseDepthFirst``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``0}})
-  name: TraverseDepthFirst<T>(IEnumerable<T>, Func<T, IEnumerable<T>>)
-  href: api/Svg.SvgExtentions.html#Svg_SvgExtentions_TraverseDepthFirst__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Collections_Generic_IEnumerable___0___
-  commentId: M:Svg.SvgExtentions.TraverseDepthFirst``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``0}})
-  name.vb: TraverseDepthFirst(Of T)(IEnumerable(Of T), Func(Of T, IEnumerable(Of T)))
-  fullName: Svg.SvgExtentions.TraverseDepthFirst<T>(System.Collections.Generic.IEnumerable<T>, System.Func<T, System.Collections.Generic.IEnumerable<T>>)
-  fullName.vb: Svg.SvgExtentions.TraverseDepthFirst(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, System.Collections.Generic.IEnumerable(Of T)))
-  nameWithType: SvgExtentions.TraverseDepthFirst<T>(IEnumerable<T>, Func<T, IEnumerable<T>>)
-  nameWithType.vb: SvgExtentions.TraverseDepthFirst(Of T)(IEnumerable(Of T), Func(Of T, IEnumerable(Of T)))
 - uid: Svg.SvgFallbackPaintServer
   name: SvgFallbackPaintServer
   href: api/Svg.SvgFallbackPaintServer.html
@@ -11283,18 +11254,42 @@ references:
   commentId: T:Svg.SvgMorphologyOperatorConverter
   fullName: Svg.SvgMorphologyOperatorConverter
   nameWithType: SvgMorphologyOperatorConverter
-- uid: Svg.SvgNamespace
+- uid: Svg.SvgNamespaces
+  name: SvgNamespaces
+  href: api/Svg.SvgNamespaces.html
+  commentId: T:Svg.SvgNamespaces
+  fullName: Svg.SvgNamespaces
+  nameWithType: SvgNamespaces
+- uid: Svg.SvgNamespaces.SvgNamespace
   name: SvgNamespace
-  href: api/Svg.SvgNamespace.html
-  commentId: T:Svg.SvgNamespace
-  fullName: Svg.SvgNamespace
-  nameWithType: SvgNamespace
-- uid: Svg.SvgNamespace.UriString
-  name: UriString
-  href: api/Svg.SvgNamespace.html#Svg_SvgNamespace_UriString
-  commentId: F:Svg.SvgNamespace.UriString
-  fullName: Svg.SvgNamespace.UriString
-  nameWithType: SvgNamespace.UriString
+  href: api/Svg.SvgNamespaces.html#Svg_SvgNamespaces_SvgNamespace
+  commentId: F:Svg.SvgNamespaces.SvgNamespace
+  fullName: Svg.SvgNamespaces.SvgNamespace
+  nameWithType: SvgNamespaces.SvgNamespace
+- uid: Svg.SvgNamespaces.XLinkNamespace
+  name: XLinkNamespace
+  href: api/Svg.SvgNamespaces.html#Svg_SvgNamespaces_XLinkNamespace
+  commentId: F:Svg.SvgNamespaces.XLinkNamespace
+  fullName: Svg.SvgNamespaces.XLinkNamespace
+  nameWithType: SvgNamespaces.XLinkNamespace
+- uid: Svg.SvgNamespaces.XLinkPrefix
+  name: XLinkPrefix
+  href: api/Svg.SvgNamespaces.html#Svg_SvgNamespaces_XLinkPrefix
+  commentId: F:Svg.SvgNamespaces.XLinkPrefix
+  fullName: Svg.SvgNamespaces.XLinkPrefix
+  nameWithType: SvgNamespaces.XLinkPrefix
+- uid: Svg.SvgNamespaces.XmlNamespace
+  name: XmlNamespace
+  href: api/Svg.SvgNamespaces.html#Svg_SvgNamespaces_XmlNamespace
+  commentId: F:Svg.SvgNamespaces.XmlNamespace
+  fullName: Svg.SvgNamespaces.XmlNamespace
+  nameWithType: SvgNamespaces.XmlNamespace
+- uid: Svg.SvgNamespaces.XmlPrefix
+  name: XmlPrefix
+  href: api/Svg.SvgNamespaces.html#Svg_SvgNamespaces_XmlPrefix
+  commentId: F:Svg.SvgNamespaces.XmlPrefix
+  fullName: Svg.SvgNamespaces.XmlPrefix
+  nameWithType: SvgNamespaces.XmlPrefix
 - uid: Svg.SvgNumberCollection
   name: SvgNumberCollection
   href: api/Svg.SvgNumberCollection.html
@@ -12838,12 +12833,12 @@ references:
   isSpec: "True"
   fullName: Svg.SvgScript.ScriptType
   nameWithType: SvgScript.ScriptType
-- uid: Svg.SvgScript.WriteChildren(XmlTextWriter)
-  name: WriteChildren(XmlTextWriter)
-  href: api/Svg.SvgScript.html#Svg_SvgScript_WriteChildren_XmlTextWriter_
-  commentId: M:Svg.SvgScript.WriteChildren(XmlTextWriter)
-  fullName: Svg.SvgScript.WriteChildren(XmlTextWriter)
-  nameWithType: SvgScript.WriteChildren(XmlTextWriter)
+- uid: Svg.SvgScript.WriteChildren(XmlWriter)
+  name: WriteChildren(XmlWriter)
+  href: api/Svg.SvgScript.html#Svg_SvgScript_WriteChildren_XmlWriter_
+  commentId: M:Svg.SvgScript.WriteChildren(XmlWriter)
+  fullName: Svg.SvgScript.WriteChildren(XmlWriter)
+  nameWithType: SvgScript.WriteChildren(XmlWriter)
 - uid: Svg.SvgScript.WriteChildren*
   name: WriteChildren
   href: api/Svg.SvgScript.html#Svg_SvgScript_WriteChildren_
@@ -13041,6 +13036,116 @@ references:
   isSpec: "True"
   fullName: Svg.SvgSwitch.Render
   nameWithType: SvgSwitch.Render
+- uid: Svg.SvgSymbol
+  name: SvgSymbol
+  href: api/Svg.SvgSymbol.html
+  commentId: T:Svg.SvgSymbol
+  fullName: Svg.SvgSymbol
+  nameWithType: SvgSymbol
+- uid: Svg.SvgSymbol.AspectRatio
+  name: AspectRatio
+  href: api/Svg.SvgSymbol.html#Svg_SvgSymbol_AspectRatio
+  commentId: P:Svg.SvgSymbol.AspectRatio
+  fullName: Svg.SvgSymbol.AspectRatio
+  nameWithType: SvgSymbol.AspectRatio
+- uid: Svg.SvgSymbol.AspectRatio*
+  name: AspectRatio
+  href: api/Svg.SvgSymbol.html#Svg_SvgSymbol_AspectRatio_
+  commentId: Overload:Svg.SvgSymbol.AspectRatio
+  isSpec: "True"
+  fullName: Svg.SvgSymbol.AspectRatio
+  nameWithType: SvgSymbol.AspectRatio
+- uid: Svg.SvgSymbol.Bounds
+  name: Bounds
+  href: api/Svg.SvgSymbol.html#Svg_SvgSymbol_Bounds
+  commentId: P:Svg.SvgSymbol.Bounds
+  fullName: Svg.SvgSymbol.Bounds
+  nameWithType: SvgSymbol.Bounds
+- uid: Svg.SvgSymbol.Bounds*
+  name: Bounds
+  href: api/Svg.SvgSymbol.html#Svg_SvgSymbol_Bounds_
+  commentId: Overload:Svg.SvgSymbol.Bounds
+  isSpec: "True"
+  fullName: Svg.SvgSymbol.Bounds
+  nameWithType: SvgSymbol.Bounds
+- uid: Svg.SvgSymbol.DeepCopy
+  name: DeepCopy()
+  href: api/Svg.SvgSymbol.html#Svg_SvgSymbol_DeepCopy
+  commentId: M:Svg.SvgSymbol.DeepCopy
+  fullName: Svg.SvgSymbol.DeepCopy()
+  nameWithType: SvgSymbol.DeepCopy()
+- uid: Svg.SvgSymbol.DeepCopy*
+  name: DeepCopy
+  href: api/Svg.SvgSymbol.html#Svg_SvgSymbol_DeepCopy_
+  commentId: Overload:Svg.SvgSymbol.DeepCopy
+  isSpec: "True"
+  fullName: Svg.SvgSymbol.DeepCopy
+  nameWithType: SvgSymbol.DeepCopy
+- uid: Svg.SvgSymbol.Path(Svg.ISvgRenderer)
+  name: Path(ISvgRenderer)
+  href: api/Svg.SvgSymbol.html#Svg_SvgSymbol_Path_Svg_ISvgRenderer_
+  commentId: M:Svg.SvgSymbol.Path(Svg.ISvgRenderer)
+  fullName: Svg.SvgSymbol.Path(Svg.ISvgRenderer)
+  nameWithType: SvgSymbol.Path(ISvgRenderer)
+- uid: Svg.SvgSymbol.Path*
+  name: Path
+  href: api/Svg.SvgSymbol.html#Svg_SvgSymbol_Path_
+  commentId: Overload:Svg.SvgSymbol.Path
+  isSpec: "True"
+  fullName: Svg.SvgSymbol.Path
+  nameWithType: SvgSymbol.Path
+- uid: Svg.SvgSymbol.PushTransforms(Svg.ISvgRenderer)
+  name: PushTransforms(ISvgRenderer)
+  href: api/Svg.SvgSymbol.html#Svg_SvgSymbol_PushTransforms_Svg_ISvgRenderer_
+  commentId: M:Svg.SvgSymbol.PushTransforms(Svg.ISvgRenderer)
+  fullName: Svg.SvgSymbol.PushTransforms(Svg.ISvgRenderer)
+  nameWithType: SvgSymbol.PushTransforms(ISvgRenderer)
+- uid: Svg.SvgSymbol.PushTransforms*
+  name: PushTransforms
+  href: api/Svg.SvgSymbol.html#Svg_SvgSymbol_PushTransforms_
+  commentId: Overload:Svg.SvgSymbol.PushTransforms
+  isSpec: "True"
+  fullName: Svg.SvgSymbol.PushTransforms
+  nameWithType: SvgSymbol.PushTransforms
+- uid: Svg.SvgSymbol.Render(Svg.ISvgRenderer)
+  name: Render(ISvgRenderer)
+  href: api/Svg.SvgSymbol.html#Svg_SvgSymbol_Render_Svg_ISvgRenderer_
+  commentId: M:Svg.SvgSymbol.Render(Svg.ISvgRenderer)
+  fullName: Svg.SvgSymbol.Render(Svg.ISvgRenderer)
+  nameWithType: SvgSymbol.Render(ISvgRenderer)
+- uid: Svg.SvgSymbol.Render*
+  name: Render
+  href: api/Svg.SvgSymbol.html#Svg_SvgSymbol_Render_
+  commentId: Overload:Svg.SvgSymbol.Render
+  isSpec: "True"
+  fullName: Svg.SvgSymbol.Render
+  nameWithType: SvgSymbol.Render
+- uid: Svg.SvgSymbol.Renderable
+  name: Renderable
+  href: api/Svg.SvgSymbol.html#Svg_SvgSymbol_Renderable
+  commentId: P:Svg.SvgSymbol.Renderable
+  fullName: Svg.SvgSymbol.Renderable
+  nameWithType: SvgSymbol.Renderable
+- uid: Svg.SvgSymbol.Renderable*
+  name: Renderable
+  href: api/Svg.SvgSymbol.html#Svg_SvgSymbol_Renderable_
+  commentId: Overload:Svg.SvgSymbol.Renderable
+  isSpec: "True"
+  fullName: Svg.SvgSymbol.Renderable
+  nameWithType: SvgSymbol.Renderable
+- uid: Svg.SvgSymbol.ViewBox
+  name: ViewBox
+  href: api/Svg.SvgSymbol.html#Svg_SvgSymbol_ViewBox
+  commentId: P:Svg.SvgSymbol.ViewBox
+  fullName: Svg.SvgSymbol.ViewBox
+  nameWithType: SvgSymbol.ViewBox
+- uid: Svg.SvgSymbol.ViewBox*
+  name: ViewBox
+  href: api/Svg.SvgSymbol.html#Svg_SvgSymbol_ViewBox_
+  commentId: Overload:Svg.SvgSymbol.ViewBox
+  isSpec: "True"
+  fullName: Svg.SvgSymbol.ViewBox
+  nameWithType: SvgSymbol.ViewBox
 - uid: Svg.SvgText
   name: SvgText
   href: api/Svg.SvgText.html

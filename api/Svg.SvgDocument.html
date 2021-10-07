@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class SvgDocument
    | SVG.NET API ">
-    <meta name="generator" content="docfx 2.56.6.0">
+    <meta name="generator" content="docfx 2.58.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -117,12 +117,6 @@
       <a class="xref" href="Svg.SvgFragment.html#Svg_SvgFragment_Svg_ISvgBoundable_Bounds">SvgFragment.ISvgBoundable.Bounds</a>
     </div>
     <div>
-      <a class="xref" href="Svg.SvgFragment.html#Svg_SvgFragment_X">SvgFragment.X</a>
-    </div>
-    <div>
-      <a class="xref" href="Svg.SvgFragment.html#Svg_SvgFragment_Y">SvgFragment.Y</a>
-    </div>
-    <div>
       <a class="xref" href="Svg.SvgFragment.html#Svg_SvgFragment_Width">SvgFragment.Width</a>
     </div>
     <div>
@@ -175,6 +169,9 @@
     </div>
     <div>
       <a class="xref" href="Svg.SvgElement.html#Svg_SvgElement_TryGetAttribute_System_String_System_String__">SvgElement.TryGetAttribute(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Svg.SvgElement.html#Svg_SvgElement_Namespaces">SvgElement.Namespaces</a>
     </div>
     <div>
       <a class="xref" href="Svg.SvgElement.html#Svg_SvgElement_ElementNamespace">SvgElement.ElementNamespace</a>
@@ -261,7 +258,7 @@
       <a class="xref" href="Svg.SvgElement.html#Svg_SvgElement_RemoveElement_Svg_SvgElement_">SvgElement.RemoveElement(SvgElement)</a>
     </div>
     <div>
-      <a class="xref" href="Svg.SvgElement.html#Svg_SvgElement_InitialiseFromXML_XmlTextReader_Svg_SvgDocument_">SvgElement.InitialiseFromXML(XmlTextReader, SvgDocument)</a>
+      <a class="xref" href="Svg.SvgElement.html#Svg_SvgElement_InitialiseFromXML_XmlReader_Svg_SvgDocument_">SvgElement.InitialiseFromXML(XmlReader, SvgDocument)</a>
     </div>
     <div>
       <a class="xref" href="Svg.SvgElement.html#Svg_SvgElement_RenderElement_Svg_ISvgRenderer_">SvgElement.RenderElement(ISvgRenderer)</a>
@@ -270,16 +267,16 @@
       <a class="xref" href="Svg.SvgElement.html#Svg_SvgElement_ShouldWriteElement">SvgElement.ShouldWriteElement()</a>
     </div>
     <div>
-      <a class="xref" href="Svg.SvgElement.html#Svg_SvgElement_WriteEndElement_XmlTextWriter_">SvgElement.WriteEndElement(XmlTextWriter)</a>
+      <a class="xref" href="Svg.SvgElement.html#Svg_SvgElement_WriteStartElement_XmlWriter_">SvgElement.WriteStartElement(XmlWriter)</a>
     </div>
     <div>
-      <a class="xref" href="Svg.SvgElement.html#Svg_SvgElement_WriteAttributes_XmlTextWriter_">SvgElement.WriteAttributes(XmlTextWriter)</a>
+      <a class="xref" href="Svg.SvgElement.html#Svg_SvgElement_WriteEndElement_XmlWriter_">SvgElement.WriteEndElement(XmlWriter)</a>
     </div>
     <div>
       <a class="xref" href="Svg.SvgElement.html#Svg_SvgElement_AutoPublishEvents">SvgElement.AutoPublishEvents</a>
     </div>
     <div>
-      <a class="xref" href="Svg.SvgElement.html#Svg_SvgElement_WriteChildren_XmlTextWriter_">SvgElement.WriteChildren(XmlTextWriter)</a>
+      <a class="xref" href="Svg.SvgElement.html#Svg_SvgElement_WriteChildren_XmlWriter_">SvgElement.WriteChildren(XmlWriter)</a>
     </div>
     <div>
       <a class="xref" href="Svg.SvgElement.html#Svg_SvgElement_RenderChildren_Svg_ISvgRenderer_">SvgElement.RenderChildren(ISvgRenderer)</a>
@@ -506,7 +503,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Uri</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uri">Uri</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -670,6 +667,84 @@ For Example Adobe Illustrator svgs.</p>
   </table>
   
   
+  <a id="Svg_SvgDocument_ResolveExternalElements_" data-uid="Svg.SvgDocument.ResolveExternalElements*"></a>
+  <h4 id="Svg_SvgDocument_ResolveExternalElements" data-uid="Svg.SvgDocument.ResolveExternalElements">ResolveExternalElements</h4>
+  <div class="markdown level1 summary"><p>Which types of external elements, for example text definitions, are allowed to be resolved. Defaults to <a class="xref" href="Svg.ExternalType.html#Svg_ExternalType_Local">Local</a> and <a class="xref" href="Svg.ExternalType.html#Svg_ExternalType_Remote">Remote</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ExternalType ResolveExternalElements { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Svg.ExternalType.html">ExternalType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Svg_SvgDocument_ResolveExternalImages_" data-uid="Svg.SvgDocument.ResolveExternalImages*"></a>
+  <h4 id="Svg_SvgDocument_ResolveExternalImages" data-uid="Svg.SvgDocument.ResolveExternalImages">ResolveExternalImages</h4>
+  <div class="markdown level1 summary"><p>Which types of external images are allowed to be resolved. Defaults to <a class="xref" href="Svg.ExternalType.html#Svg_ExternalType_Local">Local</a> and <a class="xref" href="Svg.ExternalType.html#Svg_ExternalType_Remote">Remote</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ExternalType ResolveExternalImages { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Svg.ExternalType.html">ExternalType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Svg_SvgDocument_ResolveExternalXmlEntites_" data-uid="Svg.SvgDocument.ResolveExternalXmlEntites*"></a>
+  <h4 id="Svg_SvgDocument_ResolveExternalXmlEntites" data-uid="Svg.SvgDocument.ResolveExternalXmlEntites">ResolveExternalXmlEntites</h4>
+  <div class="markdown level1 summary"><p>Which types of XML external entities are allowed to be resolved. Defaults to <a class="xref" href="Svg.ExternalType.html#Svg_ExternalType_None">None</a> to prevent XXE.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ExternalType ResolveExternalXmlEntites { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Svg.ExternalType.html">ExternalType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Svg_SvgDocument_SkipGdiPlusCapabilityCheck_" data-uid="Svg.SvgDocument.SkipGdiPlusCapabilityCheck*"></a>
   <h4 id="Svg_SvgDocument_SkipGdiPlusCapabilityCheck" data-uid="Svg.SvgDocument.SkipGdiPlusCapabilityCheck">SkipGdiPlusCapabilityCheck</h4>
   <div class="markdown level1 summary"><p>Skip check whether the GDI+ can be loaded.</p>
@@ -697,6 +772,60 @@ For Example Adobe Illustrator svgs.</p>
   <h5 id="Svg_SvgDocument_SkipGdiPlusCapabilityCheck_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Set to true on systems that do not support GDI+ like UWP.</p>
 </div>
+  
+  
+  <a id="Svg_SvgDocument_X_" data-uid="Svg.SvgDocument.X*"></a>
+  <h4 id="Svg_SvgDocument_X" data-uid="Svg.SvgDocument.X">X</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override SvgUnit X { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Svg.SvgUnit.html">SvgUnit</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Svg.SvgFragment.html#Svg_SvgFragment_X">SvgFragment.X</a></div>
+  
+  
+  <a id="Svg_SvgDocument_Y_" data-uid="Svg.SvgDocument.Y*"></a>
+  <h4 id="Svg_SvgDocument_Y" data-uid="Svg.SvgDocument.Y">Y</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override SvgUnit Y { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Svg.SvgUnit.html">SvgUnit</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Svg.SvgFragment.html#Svg_SvgFragment_Y">SvgFragment.Y</a></div>
   <h3 id="methods">Methods
   </h3>
   
@@ -1501,6 +1630,66 @@ SvgGdiPlusCannotBeLoadedException exception.</p>
   </table>
   
   
+  <a id="Svg_SvgDocument_Open_" data-uid="Svg.SvgDocument.Open*"></a>
+  <h4 id="Svg_SvgDocument_Open__1_XmlReader_" data-uid="Svg.SvgDocument.Open``1(XmlReader)">Open&lt;T&gt;(XmlReader)</h4>
+  <div class="markdown level1 summary"><p>Attempts to open an SVG document from the specified <see cref="!:XmlReader"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Open&lt;T&gt;(XmlReader reader)
+    where T : SvgDocument, new()</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">XmlReader</span></td>
+        <td><span class="parametername">reader</span></td>
+        <td><p>The <see cref="!:XmlReader"></see> containing the SVG document to open.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Svg_SvgDocument_OpenAsBitmap_" data-uid="Svg.SvgDocument.OpenAsBitmap*"></a>
   <h4 id="Svg_SvgDocument_OpenAsBitmap_System_String_" data-uid="Svg.SvgDocument.OpenAsBitmap(System.String)">OpenAsBitmap(String)</h4>
   <div class="markdown level1 summary"></div>
@@ -1746,12 +1935,12 @@ while keeping original SVG size ratio</p>
   
   
   <a id="Svg_SvgDocument_Write_" data-uid="Svg.SvgDocument.Write*"></a>
-  <h4 id="Svg_SvgDocument_Write_XmlTextWriter_" data-uid="Svg.SvgDocument.Write(XmlTextWriter)">Write(XmlTextWriter)</h4>
+  <h4 id="Svg_SvgDocument_Write_XmlWriter_" data-uid="Svg.SvgDocument.Write(XmlWriter)">Write(XmlWriter)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Write(XmlTextWriter writer)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Write(XmlWriter writer)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1764,23 +1953,23 @@ while keeping original SVG size ratio</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">XmlTextWriter</span></td>
+        <td><span class="xref">XmlWriter</span></td>
         <td><span class="parametername">writer</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Svg.SvgElement.html#Svg_SvgElement_Write_XmlTextWriter_">SvgElement.Write(XmlTextWriter)</a></div>
+  <div><a class="xref" href="Svg.SvgElement.html#Svg_SvgElement_Write_XmlWriter_">SvgElement.Write(XmlWriter)</a></div>
   
   
-  <a id="Svg_SvgDocument_WriteStartElement_" data-uid="Svg.SvgDocument.WriteStartElement*"></a>
-  <h4 id="Svg_SvgDocument_WriteStartElement_XmlTextWriter_" data-uid="Svg.SvgDocument.WriteStartElement(XmlTextWriter)">WriteStartElement(XmlTextWriter)</h4>
+  <a id="Svg_SvgDocument_WriteAttributes_" data-uid="Svg.SvgDocument.WriteAttributes*"></a>
+  <h4 id="Svg_SvgDocument_WriteAttributes_XmlWriter_" data-uid="Svg.SvgDocument.WriteAttributes(XmlWriter)">WriteAttributes(XmlWriter)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void WriteStartElement(XmlTextWriter writer)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void WriteAttributes(XmlWriter writer)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1793,14 +1982,14 @@ while keeping original SVG size ratio</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">XmlTextWriter</span></td>
+        <td><span class="xref">XmlWriter</span></td>
         <td><span class="parametername">writer</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Svg.SvgElement.html#Svg_SvgElement_WriteStartElement_XmlTextWriter_">SvgElement.WriteStartElement(XmlTextWriter)</a></div>
+  <div><a class="xref" href="Svg.SvgElement.html#Svg_SvgElement_WriteAttributes_XmlWriter_">SvgElement.WriteAttributes(XmlWriter)</a></div>
   <h3 id="eii">Explicit Interface Implementations
   </h3>
   
